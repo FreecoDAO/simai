@@ -118,8 +118,8 @@ Search for similar vectors in a Pinecone index
 | `vector` | array | Yes | Vector to search for |
 | `topK` | number | No | Number of results to return \(e.g., 10, 25\) |
 | `filter` | object | No | Filter to apply to the search \(e.g., \{"category": "tech", "year": \{"$gte": 2020\}\}\) |
-| `includeValues` | boolean | No | Include vector values in response |
-| `includeMetadata` | boolean | No | Include metadata in response \(true/false\) |
+| `includeValues` | boolean | No | Include vector values in response \(default: true\) |
+| `includeMetadata` | boolean | No | Include metadata in response \(default: true\) |
 | `apiKey` | string | Yes | Pinecone API key |
 
 #### Output
